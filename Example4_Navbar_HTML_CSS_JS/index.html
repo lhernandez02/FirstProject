@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>Example Legos</title>
+            <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+            <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+            <meta name="author" content="Awesome Student">
+            <meta name="description" content="Example Using Legos Theme, HTML, CSS">
+            <meta name="keywords" content="html css example tutorial legos">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <!--this is a comment.... don't forget to link to your css -->
+            <link rel="stylesheet" href="css/smallStyle.css" type="text/css"/>
+            <link rel="stylesheet" media="screen and (max-width:699px)" href="css/nav_style_sm.css" type="text/css"/>
+            <link rel="stylesheet" media="screen and (min-width:700px)" href="css/nav_style_lg.css" type="text/css"/>
+            <script async type="text/javascript" src="scripts/navbar.js"></script>
+  <!--embedded style -->
+            <style>
+                #logo{
+                    float:left;
+                    height:30px;
+                    width:auto;
+                    margin: 2px 2px 0px 10px;
+                }           
+            </style>
+        </head>
+        <body>
+            <nav id="nav">
+                <img id="logo" src="images/lego_red.png" alt="logo image">
+                <div id="navicon" onclick="toggleNav();">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+                <ul>
+                    <li><a href="#">Home</a> </li>
+                    <li><a href="#legos">Build</a> </li>
+                    <li><a href="#locations">Locations</a> </li>
+                    <li><a href="#resources">Resources</a> </li>
+                    <li><a href="https://www.legoland.com" target="_blank">LegoLand</a> </li>
+                </ul>
+            </nav>
+            <header id="showcase">
+                <h1>Example Using Legos</h1>
+                <p class="center">This is a brief example using the lego theme.
+                You will be pros soon enough.
+                Hopefully you love it and it feels like magic.
+                </p>
+            </header>
+            <main>
+                <section id="legos">
+                    <h2>Building with Legos</h2>
+                    <p>Things I <strong>like</strong> to build with Legos</p>
+                    <ol id="listbuilding">
+                        <li>Towers
+                        <ul>
+                            <li>Jenga</li>
+                            <li>Mario Castle</li>
+                            <li>Barbie Castle</li>
+                        </ul>
+                        </li>
+                        <li>Spacecraft</li>
+                        <li>Batmobile</li>
+                    </ol>
+                </section>
+                <section id="locations">
+                    <h2>Lego Land Locations</h2>
+                    <p>Go to any Lego Land Location to have
+                    a <strong><span class="blue">great</span></strong> time!</p>
+                    <section id="nyc">
+                        <h3>New York</h3>
+                            <img src="images/nyc.jpg" alt="NYC" title="New York"/>
+                      
+                    </section>
+                    <section id="sandiego">
+                        <h3>San Diego</h3>
+                        <img src="images/sandiego.jpg" alt="San Diego" title="San Diego"/>
+                    </section>
+                </section>
+            </main>
+            <aside>
+                <section id="resources">
+                <h2>Building Blocks for your Website</h2>
+                <h3>Complete this for homework</h3>
+                
+                <p>Put the secondary Content Here</p>
+                <p>When on a mobile device don't float</p>
+                <p>When on a large screen... use 2 column layout</p>
+                <p>Complete this for homework</p>
+                <a href="https://fonts.google.com">Google Fonts</a>
+                <a href="https://validator.w3.org/#validate_by_input+with_options">W3C HTML Validator</a>
+                <a href="https://jigsaw.w3.org/css-validator/#validate_by_input">W3C CSS Validator</a>
+                <a href="http://www.lipsum.com" >Lorem Ipsum </a>
+                <a href="https://html-color-codes.info/colors-from-image">Color Codes</a>
+                </section>
+            </aside>
+            <footer class="center">
+                <a href="http://www.lehman.cuny.edu" target="_blank">
+
+                <address>Lehman College</address>
+                <address>250 Bedford Park Blvd</address>
+                <address>Bronx, NY 10468</address>
+                Copyright &copy; 2017
+                </a>
+            </footer>
+        </body>
+    </html>

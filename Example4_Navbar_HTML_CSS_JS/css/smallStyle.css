@@ -1,0 +1,72 @@
+/*my css for small screens
+will add more later for bigger screens*/
+/*clockwise shorthand for margins, padding..etc
+ *
+ * margin: top right bottom left;
+ * padding: top right bottom left;
+ */
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+*{
+   margin: 0;
+   padding: 0;
+}
+body{
+    background-color: #889093;
+    color:#FFFFFF;
+    text-shadow: 1px 1px #000000;
+    font-family: 'Roboto', 'Arial', 'sans-serif';
+}
+#showcase{
+    background-color: #889093;
+    background-image: url("../images/lego_bricks.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;/*units of vh for the view height*/
+    padding: 30vh 2% 2% 2%;
+}
+h1{
+    text-align: center;
+}
+section{
+    padding:2em;
+}
+h1,h2,h3,h4,h5,h6{
+    /*margin: .5em 0 .5em 1em;*/
+}
+img{
+    max-width: 100%;
+}
+ul, ol{
+    margin: .5em 0 .5em 2em ;
+}
+strong{
+   /* font-size:5em;*/
+}
+footer{
+    background-color:#000000;
+    font-size: .9em;
+    padding: .5em 0 1em 0;
+    clear: both;
+}
+.center{
+    text-align: center;
+}
+.blue{
+    color: #0000FF;
+}
+
+#legos{
+    background-color: #2B9C2F;
+}
+#locations{
+     background-color: #0080E1;
+}
+#listbuilding{
+    /*specific to that list*/
+}
+@media screen and (min-width:700px){
+    main{
+        width:60%;
+        float: left;
+    }
+}
